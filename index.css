@@ -153,13 +153,13 @@ header a:hover{
 }
 
 #Lineas-Familiares .Linea-materna .image-container{
-    background-image: url("Linea\ personal.png");
+    background-image: url("Linea\ FM.png");
         background-size: cover;
         background-position: center center;
         height: 30vh;
 }
 #Lineas-Familiares .Linea-paterna .image-container{
-    background-image: url("Linea\ personal.png");
+    background-image: url("Linea\ FP.png");
         background-size: cover;
         background-position: center center;
         height: 30vh;
