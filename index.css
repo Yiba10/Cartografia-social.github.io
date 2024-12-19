@@ -307,8 +307,4 @@ footer .container{
         margin-left: 100px;
     }
 }
-@media (min-width: 1200px) {
-    #Para-que{
-        background-position-x: calc(100vw - 800px);
-    }
-}
+
