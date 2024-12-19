@@ -314,7 +314,7 @@ footer .container{
     }
 }
 @media (min-width: 1200px) {
-    #caracteristicas{
+    #Para-que{
         background-position-x: calc(100vw - 800px);
     }
 }
