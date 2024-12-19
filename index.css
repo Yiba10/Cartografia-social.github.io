@@ -14,7 +14,7 @@ body{
 h1{ font-size: 5em;}
 h2{ font-size: 4.5em; text-align: center;margin-block-start: 5px;}
 h3{ font-size: 3em; margin-block-end: 0px;}
-h4{ font-size: 2.2em; text-align: initial;margin-block-start: 5px;}
+h4{ font-size: 2.1em; text-align: center;margin-block-start: 5px;}
 p{ font-size: 3em;}
 p1{font-size: 0.8em;}
 ul{ list-style: none;}
@@ -116,7 +116,7 @@ header a:hover{
 }
 
 #Que-son{
-    text-align: initial;
+    text-align: center;
     padding: 200px 12px;    
 }
 
@@ -280,17 +280,11 @@ footer .container{
   #Que-son .container{
         display: flex;
         justify-content: space-evenly;
+        background-image: url("Vecindad.png");
+       background-size: cover;
+        background-position: center center;
     }
 
-    #Que-son .text{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     #Que-son .img-container{
         background-image: url("Vecindad.png");
         background-size: cover;
@@ -302,8 +296,8 @@ footer .container{
     #Para-que{
         background-image: url("Lista.png");
         background-repeat: no-repeat;
-        background-size: 500px 400px;
-        background-position: calc(100vw - 500px) 120px;
+        background-size: 500px 400px
+        
     }
 
     #Para-que .container{
